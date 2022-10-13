@@ -38,7 +38,5 @@
 
   For more information, feel free to contact me:
 
-  E-mail: [](mailto:)
-
   GitHub: [github.com/stevengoldbergm](https://github.com/stevengoldbergm)
   

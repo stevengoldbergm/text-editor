@@ -28,6 +28,8 @@
 
   ## Usage
 
+  You can use the deployed web app [HERE!](https://text-editor-stevengoldbergm.herokuapp.com/)
+
   Upon opening the base application, you can type text in the dedicated text editor to make a note! The text body is saved using Idb, so whatever you write will be ready for you whenever you reload the program. 
 
   <br>

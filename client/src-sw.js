@@ -6,7 +6,7 @@ const { ExpirationPlugin } = require('workbox-expiration');
 const { precacheAndRoute } = require('workbox-precaching/precacheAndRoute');
 
 // Added for caching
-const { StaleWhileRevalidate } = require('workbox-strategies');
+  // const { StaleWhileRevalidate } = require('workbox-strategies'); // Delete if not used
 
 
 precacheAndRoute(self.__WB_MANIFEST);
@@ -34,7 +34,7 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 registerRoute(
   // Here we define the callback function that will filter the requests we want to cache (in this case, JS and CSS files)
   ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
-  new StaleWhileRevalidate({
+  new CacheFirst({ // change to StaleWhileRevalidate if there are issues
     // Name of the cache storage.
     cacheName: 'asset-cache',
     plugins: [

@@ -1,41 +1,37 @@
 
-  # Text Editor
-
-  
+  # Just Another Text Editor (J.A.T.E.)
+![](imgs/JATE02.png)
 
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
   * [Questions](#questions)
 
   ## Description
 
-  This is a simple text editor made with CodeMirror, webpack.js, and IdbDatabase.
+  This PWA is Just Another Text Editor made with CodeMirror, webpack.js, and IdbDatabase. You can use the app on the web or installed on your personal machine, write notes, and find them again whenever you need!
+
+  <br>
 
   ## Installation
 
-  Follow the below steps to install the program:
+  To install the dev environment, simply clone the repo and type this into your terminal:
 
-    Upon opening the base application, simply click the "Install!" button to install a local version of the app to your device. 
+    npm i
+  
+  To install the program on your local device, simply click the "Install!" button on the top-left corner.
+
+  ![J.A.T.E. install button](imgs/JATE01.png)
+
+  <br>
 
   ## Usage
 
-  Upon initialization, the text editor will be fully functional. Enter text into the text area. Whent he app is closed and reloaded, the text will re-initialize.
+  Upon opening the base application, you can type text in the dedicated text editor to make a note! The text body is saved using Idb, so whatever you write will be ready for you whenever you reload the program. 
 
-  ## Contributing
-
-  N/A
-
-  ## Tests
-
-  Follow the below steps to test the program:
-
-    N/A
-
+  <br>
+  
   ## Questions
 
   For more information, feel free to contact me:

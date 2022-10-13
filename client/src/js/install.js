@@ -8,15 +8,15 @@ window.addEventListener('beforeinstallprompt', (event) => {
     butInstall.style.visibility = 'visible';
     // Add text to the button if necessary
     
-    // Implement a click event handler on the `butInstall` element
-    butInstall.addEventListener('click', async () => {
-        event.prompt();
-        butInstall.setAttribute('disabled', true);
-        butInstall.textContent = 'Installed!'
-    });
+
 });
 
-
+// Implement a click event handler on the `butInstall` element
+butInstall.addEventListener('click', async (event) => {
+    event.prompt();
+    butInstall.setAttribute('disabled', true);
+    butInstall.textContent = 'Installed!'
+});
 
 // Add a handler for the `appinstalled` event
 window.addEventListener('appinstalled', (event) => {
